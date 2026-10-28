@@ -1,0 +1,69 @@
+{
+  "/vendor/lib/hw/audio.primary.amlogic.so": {
+    "inode_path": "/lib/hw/audio.primary.amlogic.so",
+    "stat": "Inode: 608   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 464356\nFile ACL: 0\nLinks: 1   Blockcount: 848\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd8431:00000000 -- Thu Oct  1 05:50:41 2026\n atime: 0x6abd8431:00000000 -- Thu Oct  1 05:50:41 2026\n mtime: 0x6abd8431:00000000 -- Thu Oct  1 05:50:41 2026\ncrtime: 0x6abd8431:00000000 -- Thu Oct  1 05:50:41 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-35):19739-19774, (40-41):19775-19776, (46-113):19777-19844\n"
+  },
+  "/vendor/lib/libstagefrighthw.so": {
+    "inode_path": "/lib/libstagefrighthw.so",
+    "stat": "Inode: 738   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 2953668\nFile ACL: 0\nLinks: 1   Blockcount: 5776\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n atime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n mtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\ncrtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-7):28264-28271, (8-27):41364-41383, (28-721):41385-42078\n"
+  },
+  "/vendor/lib/libstagefrighthw_original.so": {
+    "inode_path": "/lib/libstagefrighthw_original.so",
+    "stat": "Inode: 885   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 30616\nFile ACL: 0\nLinks: 1   Blockcount: 64\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n atime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n mtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\ncrtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-7):42079-42086\n"
+  },
+  "/vendor/etc/media_codecs.xml": {
+    "inode_path": "/etc/media_codecs.xml",
+    "stat": "Inode: 365   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 17044\nFile ACL: 0\nLinks: 1   Blockcount: 40\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n atime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\n mtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\ncrtime: 0x6abd1c7d:00000000 -- Wed Sep 30 22:28:13 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-3):10031-10034, (4):42087\n"
+  },
+  "/vendor/etc/media_codecs_ext.xml": {
+    "inode_path": "/etc/media_codecs_ext.xml",
+    "stat": "Inode: 366   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 9170\nFile ACL: 0\nLinks: 1   Blockcount: 24\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7e:00000000 -- Wed Sep 30 22:28:14 2026\n atime: 0x6abd1c7e:00000000 -- Wed Sep 30 22:28:14 2026\n mtime: 0x6abd1c7e:00000000 -- Wed Sep 30 22:28:14 2026\ncrtime: 0x6abd1c7e:00000000 -- Wed Sep 30 22:28:14 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-2):10035-10037\n"
+  },
+  "/system/lib/libmediavendor_ext.so": {
+    "inode_path": "/system/lib/libmediavendor_ext.so",
+    "stat": "Inode: 2285   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 28044\nFile ACL: 0\nLinks: 1   Blockcount: 56\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\n atime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\n mtime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\ncrtime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-6):195975-195981\n"
+  },
+  "/system/lib/libstagefright_xmlparser.so": {
+    "inode_path": "/system/lib/libstagefright_xmlparser.so",
+    "stat": "Inode: 2380   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 73532\nFile ACL: 0\nLinks: 1   Blockcount: 144\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\n atime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\n mtime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\ncrtime: 0x6abd1c7f:00000000 -- Wed Sep 30 22:28:15 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-17):69937-69954\n"
+  },
+  "/system/apex/com.android.vndk.current/lib/libstagefright_xmlparser.so": {
+    "inode_path": "/system/apex/com.android.vndk.current/lib/libstagefright_xmlparser.so",
+    "stat": "Inode: 642   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 80080\nFile ACL: 0\nLinks: 1   Blockcount: 160\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c80:00000000 -- Wed Sep 30 22:28:16 2026\n atime: 0x6abd1c80:00000000 -- Wed Sep 30 22:28:16 2026\n mtime: 0x6abd1c80:00000000 -- Wed Sep 30 22:28:16 2026\ncrtime: 0x6abd1c80:00000000 -- Wed Sep 30 22:28:16 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-19):8838-8857\n"
+  },
+  "/product/etc/build.prop": {
+    "inode_path": "/etc/build.prop",
+    "stat": "Inode: 46   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 2386\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd1c82:00000000 -- Wed Sep 30 22:28:18 2026\n atime: 0x6abd1c82:00000000 -- Wed Sep 30 22:28:18 2026\n mtime: 0x6abd1c82:00000000 -- Wed Sep 30 22:28:18 2026\ncrtime: 0x6abd1c82:00000000 -- Wed Sep 30 22:28:18 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (26) = \"u:object_r:system_file:s0\\000\"\nEXTENTS:\n(0):163616\n"
+  },
+  "/vendor/lib/libdroidaudiospdif.so": {
+    "inode_path": "/lib/libdroidaudiospdif.so",
+    "stat": "Inode: 655   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 613392\nFile ACL: 0\nLinks: 1   Blockcount: 1208\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abd8432:00000000 -- Thu Oct  1 05:50:42 2026\n atime: 0x6abd8432:00000000 -- Thu Oct  1 05:50:42 2026\n mtime: 0x6abd8432:00000000 -- Thu Oct  1 05:50:42 2026\ncrtime: 0x6abd8432:00000000 -- Thu Oct  1 05:50:42 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(ETB0):41234, (0-6):19845-19851, (7-10):25006-25009, (11-16):33775-33780, (17-21):35771-35775, (22):36685, (23-149):41235-41361\n"
+  },
+  "/vendor/etc/audio_policy_configuration.xml": {
+    "inode_path": "/etc/audio_policy_configuration.xml",
+    "stat": "Inode: 264   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 17228\nFile ACL: 0\nLinks: 1   Blockcount: 40\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n atime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n mtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\ncrtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-3):35767-35770, (4):41384\n"
+  },
+  "/vendor/etc/init/zz-nonms12-audio.rc": {
+    "inode_path": "/etc/init/zz-nonms12-audio.rc",
+    "stat": "Inode: 883   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 573\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n atime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n mtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\ncrtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):41362\n"
+  },
+  "/vendor/etc/audio-noms12-empty": {
+    "stat": "Inode: 884   Type: directory    Mode:  0755   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 4096\nFile ACL: 0\nLinks: 2   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n atime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\n mtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\ncrtime: 0x6abcd97d:00000000 -- Wed Sep 30 17:42:21 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):41363\n",
+    "listing": "/884/040755/0/0/.//\n/259/040755/0/2000/..//\n\n"
+  },
+  "vendor": {
+    "snapshot": "release/audio-remote-final-20261001/vendor-final.ext4",
+    "size": 209715200,
+    "sha256": "c18cf3211d7c69ad394773b82d306cfc06a8bb70d5ab8580596abf0a42e98488"
+  },
+  "system": {
+    "snapshot": "release/nonms12-system-audio-20260930/system-final.ext4",
+    "size": 891289600,
+    "sha256": "65c2fb78a164d213b08d6f9159fce8a593ddc00f45894abf4a996788b9b4d852"
+  },
+  "product": {
+    "snapshot": "release/nonms12-system-audio-20260930/product-final.ext4",
+    "size": 838860800,
+    "sha256": "68c86a2e2b4b72008386b130821479abbdf870b87299e04b34624b8817549534"
+  }
+}

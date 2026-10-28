@@ -1,0 +1,33 @@
+--- original/vendor/etc/media_codecs.xml
++++ final/vendor/etc/media_codecs.xml
+@@ -213,8 +213,16 @@
+         <MediaCodec name="OMX.google.alac.decoder" type="audio/alac" />
+         <MediaCodec name="OMX.google.ape.decoder" type="audio/ape" />
+         <MediaCodec name="OMX.google.raw.decoder" type="audio/raw" />
+-        <MediaCodec name="OMX.amlogic.audio.decoder.ac3" type="audio/ac3" />
+-        <MediaCodec name="OMX.amlogic.audio.decoder.eac3" type="audio/eac3" />
++        <MediaCodec name="OMX.google.ffsurround.ac3.decoder" type="audio/ac3">
++            <Limit name="channel-count" max="6" />
++            <Limit name="sample-rate" ranges="32000,44100,48000" />
++            <Limit name="bitrate" range="16000-640000" />
++        </MediaCodec>
++        <MediaCodec name="OMX.google.ffsurround.eac3.decoder" type="audio/eac3">
++            <Limit name="channel-count" max="8" />
++            <Limit name="sample-rate" ranges="32000,44100,48000" />
++            <Limit name="bitrate" range="16000-6144000" />
++        </MediaCodec>
+ 	<MediaCodec name="OMX.google.opus.decoder" type="audio/opus">
+             <Limit name="channel-count" max="8" />
+             <Limit name="sample-rate" ranges="48000" />
+@@ -256,6 +264,11 @@
+             <Type  name="audio/mpeg" />
+             <Quirk name="needs-flush-before-disable" />
+             <Quirk name="requires-flush-complete-emulation" />
++        </MediaCodec>
++        <MediaCodec name="OMX.google.ffsurround.truehd.decoder" type="audio/true-hd">
++            <Limit name="channel-count" max="8" />
++            <Limit name="sample-rate" ranges="44100,48000,88200,96000,176400,192000" />
++            <Limit name="bitrate" range="1-24000000" />
+         </MediaCodec>
+     </Decoders>
+ 

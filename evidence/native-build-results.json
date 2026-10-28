@@ -1,0 +1,19 @@
+{
+  "relink_frozen": false,
+  "files": [
+    {
+      "target": "/vendor/lib/libdroidaudiospdif.so",
+      "size": 613392,
+      "sha256": "1e1c8ee210eb13cea4a304944fc16992a3d82c44f9a41324316db78a49ae4130",
+      "frozen_sha256": "1e1c8ee210eb13cea4a304944fc16992a3d82c44f9a41324316db78a49ae4130",
+      "byte_identical": true
+    },
+    {
+      "target": "/vendor/lib/libstagefrighthw.so",
+      "size": 2953668,
+      "sha256": "1a5ea7257a56dc072d72860bb22fcbedb264c3eb4e76002e31d49f2db5241600",
+      "frozen_sha256": "1a5ea7257a56dc072d72860bb22fcbedb264c3eb4e76002e31d49f2db5241600",
+      "byte_identical": true
+    }
+  ]
+}

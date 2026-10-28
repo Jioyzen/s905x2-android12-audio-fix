@@ -1,0 +1,4 @@
+{
+  global: createOMXPlugin; destroyOMXPlugin;
+  local: *;
+};

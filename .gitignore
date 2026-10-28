@@ -1,0 +1,7 @@
+_audit/
+_build/
+__pycache__/
+*.pyc
+.env
+*.img
+*.ext4

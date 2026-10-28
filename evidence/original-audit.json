@@ -1,0 +1,154 @@
+{
+  "original_sha256": "2916c7cf174ca26de65bae2b20edd7fa9a59d5f73ddfad2b4eb4b7e0ae3320c1",
+  "lp": {
+    "version": "10.0",
+    "slots": 2,
+    "logical_block_size": 4096,
+    "partitions": [
+      {
+        "name": "system",
+        "extents": [
+          {
+            "sectors": 1581552,
+            "super_sector": 2048
+          }
+        ],
+        "size": 809754624,
+        "sha256": "36c566855abb895f34b75f8617d4e2a75e713aabcdf6a5cfc0a3bb9d02b9e911"
+      },
+      {
+        "name": "vendor",
+        "extents": [
+          {
+            "sectors": 329872,
+            "super_sector": 1585152
+          }
+        ],
+        "size": 168894464,
+        "sha256": "83531b1c6c72190fe6cef8c0f8418c19dff8310547879181560cfdc1bfb9113b"
+      },
+      {
+        "name": "product",
+        "extents": [
+          {
+            "sectors": 1463504,
+            "super_sector": 1916928
+          }
+        ],
+        "size": 749314048,
+        "sha256": "5699f191bb45c61525b19ae779d8950617df0309d64e50a660b2be7c12059441"
+      },
+      {
+        "name": "odm",
+        "extents": [
+          {
+            "sectors": 14776,
+            "super_sector": 3381248
+          }
+        ],
+        "size": 7565312,
+        "sha256": "c85ed96efe5fa529b0b125039a5cfd7d6587581d09ed102b92a8cfdb3e887591"
+      }
+    ]
+  },
+  "files": [
+    {
+      "target": "/vendor/lib/hw/audio.primary.amlogic.so",
+      "inode_path": "/lib/hw/audio.primary.amlogic.so",
+      "exists": true,
+      "size": 460260,
+      "sha256": "268ac992d7161f63c6bb55768f5632a7a545ba16895f5dcb23b9a924082ec116",
+      "stat": "Inode: 608   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 460260\nFile ACL: 0\nLinks: 1   Blockcount: 904\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-111):19739-19850, (112):19851\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/lib/libstagefrighthw.so",
+      "inode_path": "/lib/libstagefrighthw.so",
+      "exists": true,
+      "size": 30616,
+      "sha256": "f96ab54c54ca4c80afd61feb9848b1a2b9097db92060fc7cf087fa24b5db2a6a",
+      "stat": "Inode: 738   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 30616\nFile ACL: 0\nLinks: 1   Blockcount: 64\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-6):28264-28270, (7):28271\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/lib/libstagefrighthw_original.so",
+      "inode_path": "/lib/libstagefrighthw_original.so",
+      "exists": false
+    },
+    {
+      "target": "/vendor/etc/media_codecs.xml",
+      "inode_path": "/etc/media_codecs.xml",
+      "exists": true,
+      "size": 16338,
+      "sha256": "1a2d96bb20120e7f82ebc679f56437d39cae9a1eb27d09fa94878617a2b4321c",
+      "stat": "Inode: 365   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 16338\nFile ACL: 0\nLinks: 1   Blockcount: 32\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-2):10031-10033, (3):10034\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/etc/media_codecs_ext.xml",
+      "inode_path": "/etc/media_codecs_ext.xml",
+      "exists": true,
+      "size": 9158,
+      "sha256": "783fac5c9ad2fd83551e759ba1a3f9b7fb2612d6f1bfd6d26cf9b160c72789fc",
+      "stat": "Inode: 366   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 9158\nFile ACL: 0\nLinks: 1   Blockcount: 24\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-1):10035-10036, (2):10037\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/system/lib/libmediavendor_ext.so",
+      "inode_path": "/system/lib/libmediavendor_ext.so",
+      "exists": true,
+      "size": 28044,
+      "sha256": "156d4d2ae3dc528de660861953c9472eeccc88d6be9b3698a1f9f2c7b2892c51",
+      "stat": "Inode: 2285   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 28044\nFile ACL: 0\nLinks: 1   Blockcount: 56\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n atime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n mtime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-6):195975-195981\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/system/lib/libstagefright_xmlparser.so",
+      "inode_path": "/system/lib/libstagefright_xmlparser.so",
+      "exists": true,
+      "size": 73532,
+      "sha256": "12d7ec813c900ac8d1921438e86f128ee330362e882ec0cb5b109f9595a84c68",
+      "stat": "Inode: 2380   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 73532\nFile ACL: 0\nLinks: 1   Blockcount: 144\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n atime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n mtime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-17):69937-69954\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/system/apex/com.android.vndk.current/lib/libstagefright_xmlparser.so",
+      "inode_path": "/system/apex/com.android.vndk.current/lib/libstagefright_xmlparser.so",
+      "exists": true,
+      "size": 80080,
+      "sha256": "cc44c1808c3a48b9ac6c5e8ff1756a963aefbd474fa401962ea7facedf360ab4",
+      "stat": "Inode: 642   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 80080\nFile ACL: 0\nLinks: 1   Blockcount: 160\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n atime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\n mtime: 0x681b871d:00000000 -- Thu May  8 00:15:25 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (30) = \"u:object_r:system_lib_file:s0\\000\"\nEXTENTS:\n(0-19):8838-8857\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/product/etc/build.prop",
+      "inode_path": "/etc/build.prop",
+      "exists": true,
+      "size": 2386,
+      "sha256": "99e952ccf8d96ca9f6d6a8535e76617d8b17578c45befe5a9e08cb23d46f7348",
+      "stat": "Inode: 46   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 2386\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b876b:00000000 -- Thu May  8 00:16:43 2025\n atime: 0x681b876b:00000000 -- Thu May  8 00:16:43 2025\n mtime: 0x681b876b:00000000 -- Thu May  8 00:16:43 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (26) = \"u:object_r:system_file:s0\\000\"\nEXTENTS:\n(0):163616\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/lib/libdroidaudiospdif.so",
+      "inode_path": "/lib/libdroidaudiospdif.so",
+      "exists": true,
+      "size": 12564,
+      "sha256": "98b0758ed82bd2521be566e3cc3811e034eefe42b4cbc009a25ab1a0778f533d",
+      "stat": "Inode: 655   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 12564\nFile ACL: 0\nLinks: 1   Blockcount: 32\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-2):25006-25008, (3):25009\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/etc/audio_policy_configuration.xml",
+      "inode_path": "/etc/audio_policy_configuration.xml",
+      "exists": true,
+      "size": 14299,
+      "sha256": "2b992d485feb39cf9de9ad2a51c4774c2c2326f6ae45dd1b90cd4d25b815c5c4",
+      "stat": "Inode: 264   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 14299\nFile ACL: 0\nLinks: 1   Blockcount: 32\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-3):35767-35770\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    },
+    {
+      "target": "/vendor/etc/init/zz-nonms12-audio.rc",
+      "inode_path": "/etc/init/zz-nonms12-audio.rc",
+      "exists": false
+    },
+    {
+      "target": "/vendor/lib/libamaudioutils.so",
+      "inode_path": "/lib/libamaudioutils.so",
+      "exists": true,
+      "size": 79828,
+      "sha256": "4f04e88129a0bbd05b185543ad9867b518c31d80aab29f08b01f8935439b7623",
+      "stat": "Inode: 632   Type: regular    Mode:  0644   Flags: 0x80080\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Size: 79828\nFile ACL: 0\nLinks: 1   Blockcount: 160\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n atime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\n mtime: 0x681b875b:00000000 -- Thu May  8 00:16:27 2025\ncrtime: 0x00000000:00000000 -- Thu Jan  1 08:00:00 1970\nSize of extra inode fields: 28\nExtended attributes:\n  security.selinux (26) = \"u:object_r:vendor_file:s0\\000\"\nEXTENTS:\n(0-18):20630-20648, (19):20649\ndebugfs 1.47.0 (5-Feb-2023)\n"
+    }
+  ]
+}

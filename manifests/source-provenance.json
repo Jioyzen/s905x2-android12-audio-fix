@@ -1,0 +1,606 @@
+{
+  "files": [
+    {
+      "file": "src/spdif/SPDIFEncoderHD.cpp",
+      "sha256": "dddc3e33dfda68c28e4a22642a1525c5b4ce7d4d008b2042ac501960d6b44c6c",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/SPDIFEncoderHD.cpp"
+    },
+    {
+      "file": "src/spdif/ffmpeg_hdpack.o",
+      "sha256": "73b14f2e4e97214d65ded0c570c370b8e78f586eea9e481473e9e68d482f1437",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/ffmpeg_hdpack.o"
+    },
+    {
+      "file": "src/spdif/AC3FrameScanner.cpp",
+      "sha256": "6fc1894f5e9c358cf76f12e559afd841d857f204a3b35772ba41d29007a0c2db",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/AC3FrameScanner.cpp"
+    },
+    {
+      "file": "src/spdif/AC3FrameScanner.h",
+      "sha256": "f6fe51122cb94188c365a82b8e096a2b72789e4910c7c8e94c53d0b3eb2d94fa",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/AC3FrameScanner.h"
+    },
+    {
+      "file": "src/spdif/DTSFrameScanner.cpp",
+      "sha256": "53ded5ff0a49b4886a934dca3715e2cb7d0f36d3d206f12a9ed1c290e809685a",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/DTSFrameScanner.cpp"
+    },
+    {
+      "file": "src/spdif/DTSFrameScanner.h",
+      "sha256": "3a9d768edee2cd31a9b8f7fbef23d3d72bdf9d236f26e8c03ac2cbee424035e2",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/DTSFrameScanner.h"
+    },
+    {
+      "file": "src/spdif/FrameScanner.cpp",
+      "sha256": "8548980e9ddafbe4a3706b6719141242b41da8872905c1724272c35f92ee6695",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/FrameScanner.cpp"
+    },
+    {
+      "file": "src/spdif/FrameScanner.h",
+      "sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/FrameScanner.h"
+    },
+    {
+      "file": "src/spdif/BitFieldParser.cpp",
+      "sha256": "81145a752436aeedac18cc9b0dbdc8fd475c507f0b115bd041c58994e5d288c0",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/BitFieldParser.cpp"
+    },
+    {
+      "file": "src/spdif/BitFieldParser.h",
+      "sha256": "4c099ee8594031df5879b337ee9ef31cea7fb8dd65fedf9c4ceddd9095e956cf",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/BitFieldParser.h"
+    },
+    {
+      "file": "src/spdif/SPDIFEncoder.h",
+      "sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/SPDIFEncoder.h"
+    },
+    {
+      "file": "src/spdif/abi_alias.S",
+      "sha256": "eea10148204e1233b2227e5e12817b3b80935c8bd81052bb40808e4e27c65101",
+      "origin": "cebox/offline-build/v24-hd-packer/spdif/abi_alias.S"
+    },
+    {
+      "file": "src/spdif/ffmpeg_hdpack.c",
+      "sha256": "43bb5dd21957f09b73168ab26f25cb1f0aa6d0d66f8d56ebe43bd851b5574390",
+      "origin": "cebox/offline-build/sei500-hd-audio/ffmpeg_hdpack.c",
+      "original_source_sha256": "6e5e40b015ba4f3a3b042d2f1c2cea88539c69146d82930a498ec600b9e86719",
+      "archive_adjustment": "Only two relative #include paths adjusted for the standalone project layout"
+    },
+    {
+      "file": "src/spdif/hdpack.h",
+      "sha256": "c42bfb840ef37e5d3b17d15cdb0a8c887a13a57c547dc345f54d957f08aebc2d",
+      "origin": "cebox/offline-build/v24-hd-packer/proto/hdpack.h"
+    },
+    {
+      "file": "src/spdif/include/log/log.h",
+      "sha256": "313ee691e7299bc29804de413b4fed1e75ab87d7e761c3dbec09062fc3736287",
+      "origin": "cebox/offline-build/v24-hd-packer/include/log/log.h"
+    },
+    {
+      "file": "src/spdif/include/system/audio.h",
+      "sha256": "62fcad94e8d290adaef9519d5f0d8c5f0d8e21ae63cb3703cc3876114c323e61",
+      "origin": "cebox/offline-build/v24-hd-packer/include/system/audio.h"
+    },
+    {
+      "file": "src/spdif/include/audio_utils/spdif/SPDIFEncoder.h",
+      "sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0",
+      "origin": "cebox/offline-build/v24-hd-packer/include/audio_utils/spdif/SPDIFEncoder.h"
+    },
+    {
+      "file": "src/spdif/include/audio_utils/spdif/FrameScanner.h",
+      "sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7",
+      "origin": "cebox/offline-build/v24-hd-packer/include/audio_utils/spdif/FrameScanner.h"
+    },
+    {
+      "file": "src/spdif/libstub/libc++.so",
+      "sha256": "50cfa79deabd520fcc285ae2b34548cd5a99226e151c9a955c8dd8ad8a6a51c9",
+      "origin": "cebox/offline-build/v24-hd-packer/libstub/libc++.so"
+    },
+    {
+      "file": "src/decoder/SurroundDecoder.cpp",
+      "sha256": "e35f1eaa521abc9b04ccfa17716ac4f831601bf9229d7b2344cb7488d53f4733",
+      "origin": "work/system-surround-decoder/SurroundDecoder.cpp"
+    },
+    {
+      "file": "src/decoder/SurroundDecoder.o",
+      "sha256": "91cbcdb243c6000e2d32108daae91b2f1377a78d5d350b175d144638cfecd0f6",
+      "origin": "work/system-surround-decoder/SurroundDecoder.o"
+    },
+    {
+      "file": "src/decoder/exports.map",
+      "sha256": "484bbf218f72930ac36898b0c1d344c4d8f54c7b2ce684562587e459623f41cf",
+      "origin": "work/system-surround-decoder/exports.map"
+    },
+    {
+      "file": "src/decoder/fetch_headers.py",
+      "sha256": "942f1eebfdcc6095b595d01e97d89dced3a788a86c466c0193760a15fb8bc8d7",
+      "origin": "work/system-surround-decoder/fetch_headers.py"
+    },
+    {
+      "file": "src/decoder/patch_truehd_mime.py",
+      "sha256": "4c7f8b89a02244a553510708a50608d38c62be67c801e31a57bda40f858c2e62",
+      "origin": "work/system-surround-decoder/patch_truehd_mime.py"
+    },
+    {
+      "file": "src/decoder/patch_xmlparser_truehd.py",
+      "sha256": "705e248b3640ff80b5f53612fcea6f2445d55e337ac50838ef0329d238a8ab2e",
+      "origin": "work/system-surround-decoder/patch_xmlparser_truehd.py"
+    },
+    {
+      "file": "src/decoder/include/OMX_Other.h",
+      "sha256": "fc00885b8a98f01b98255b236fa7312bd22e3d8c1061c1944f482a54e607c310",
+      "origin": "work/system-surround-decoder/include/OMX_Other.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Component.h",
+      "sha256": "32ddf10d8b32f3e100b87a5e88049b8221464db2580a9c7c218758397993810a",
+      "origin": "work/system-surround-decoder/include/OMX_Component.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Image.h",
+      "sha256": "d3d9f1c9643b60fefbcfa7ad13a1c8905b5d8dc7d907e35515ac2c2a1290c68d",
+      "origin": "work/system-surround-decoder/include/OMX_Image.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Index.h",
+      "sha256": "6e53aa3d4311f86a0b45901e652fdfa783e7f0a20f6dd17f29e7aaedb5113bb7",
+      "origin": "work/system-surround-decoder/include/OMX_Index.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Audio.h",
+      "sha256": "5feb6d40ae2ad3e3e172957c9a54f5aa51ee30c5c8dda1a47b5a34f6f9f4ea1f",
+      "origin": "work/system-surround-decoder/include/OMX_Audio.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Video.h",
+      "sha256": "48f5208993d14e8db8c81d22e4ee8c41a62ef06638cf393b0741c1402a2953bf",
+      "origin": "work/system-surround-decoder/include/OMX_Video.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_AudioExt.h",
+      "sha256": "18360d71f2557054513fc6158aac17abc3ce163df5c68948d3e070278fc8eda1",
+      "origin": "work/system-surround-decoder/include/OMX_AudioExt.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_IVCommon.h",
+      "sha256": "70a176bb069cd2f2b4f5845f3fa6f26133e0089e75044fc5caf8e400f0d1f685",
+      "origin": "work/system-surround-decoder/include/OMX_IVCommon.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Types.h",
+      "sha256": "6ff64a0101834dadddb9c68d2f63dd9893b759c05807cc0448afec3413514264",
+      "origin": "work/system-surround-decoder/include/OMX_Types.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_Core.h",
+      "sha256": "32bdcf4de4533e7fea1cd11e0954294f220dd1dc4d5f568a2a53d81868fcc6fd",
+      "origin": "work/system-surround-decoder/include/OMX_Core.h"
+    },
+    {
+      "file": "src/decoder/include/OMX_IndexExt.h",
+      "sha256": "ac6e5de6ad7d7d81e78edbd570e5836e90b4dd10707556ef23ebe3acdb3a0567",
+      "origin": "work/system-surround-decoder/include/OMX_IndexExt.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_radio.h",
+      "sha256": "b84f5357c3d5cacdd034b28c67a7a3d69ee9d3dae39be9175660ed44afc5edf5",
+      "origin": "work/system-surround-decoder/include/log/log_radio.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_system.h",
+      "sha256": "35e31b751960fd45760546baa1e6b1ae5cc0f3c25d5b292c50e1487dd36670f0",
+      "origin": "work/system-surround-decoder/include/log/log_system.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_safetynet.h",
+      "sha256": "3381a2b153f0542a47202e0230daf9d30b68b04e970690c2947940dc05312cfa",
+      "origin": "work/system-surround-decoder/include/log/log_safetynet.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_main.h",
+      "sha256": "a1c38c517b8ec39393f7b6733b4b6ab831690394accf88d96a76f98a00d09bb1",
+      "origin": "work/system-surround-decoder/include/log/log_main.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_id.h",
+      "sha256": "c905e4e217e2bc389c0ae2d9a489ead7fbe9aef649f7d036bb8688be1ea9dd5d",
+      "origin": "work/system-surround-decoder/include/log/log_id.h"
+    },
+    {
+      "file": "src/decoder/include/log/log.h",
+      "sha256": "a88a797a352663075686bc6e3bf76675e1606367eaf12efd70f75706b84a595c",
+      "origin": "work/system-surround-decoder/include/log/log.h"
+    },
+    {
+      "file": "src/decoder/include/log/log_time.h",
+      "sha256": "ba916f8fa49be1db30aeb6cbff4f7323164e0e327cfdecf7e1dc95b7f9491d9c",
+      "origin": "work/system-surround-decoder/include/log/log_time.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Log.h",
+      "sha256": "74f0f6c731593ec8c2bcd05e71c74372b469236977136af113ac8a15bdfbf939",
+      "origin": "work/system-surround-decoder/include/utils/Log.h"
+    },
+    {
+      "file": "src/decoder/include/utils/List.h",
+      "sha256": "c0bcc937d1cdb45054058e1c269fa14a1aaa4fe780705c83373040bd3de4b587",
+      "origin": "work/system-surround-decoder/include/utils/List.h"
+    },
+    {
+      "file": "src/decoder/include/utils/SortedVector.h",
+      "sha256": "31c23ef164a4215aacfa3b76cfcc0cef8b327cf3464d222ecf4864b1e07e64df",
+      "origin": "work/system-surround-decoder/include/utils/SortedVector.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Condition.h",
+      "sha256": "277962fe2496381c9a6071f0a20faa5beacc0929ee0ef855fdaf6da84df87ff6",
+      "origin": "work/system-surround-decoder/include/utils/Condition.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Vector.h",
+      "sha256": "1cd084cdbfba6b8a6f267f000e84daabc5b7f3ee89148a9df2c21aac41d44e11",
+      "origin": "work/system-surround-decoder/include/utils/Vector.h"
+    },
+    {
+      "file": "src/decoder/include/utils/TypeHelpers.h",
+      "sha256": "c5ba6abcc6df8ab3fe2531d7da7e185a0f1627920159294f475cc2d6c5998057",
+      "origin": "work/system-surround-decoder/include/utils/TypeHelpers.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Errors.h",
+      "sha256": "e6d281e4dd6649a66f4d5d06b3adcd0d750b3c5b4fb7be980ce04ca0696f09e0",
+      "origin": "work/system-surround-decoder/include/utils/Errors.h"
+    },
+    {
+      "file": "src/decoder/include/utils/String8.h",
+      "sha256": "17190e33f692f2fe3af90f900e4c3eecd30fd21367a4b576e4bc945121c2daae",
+      "origin": "work/system-surround-decoder/include/utils/String8.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Timers.h",
+      "sha256": "d4ca83693f7ed1ae6a2f637aa803baa70f17460593488b2a22c9b870e48c9d79",
+      "origin": "work/system-surround-decoder/include/utils/Timers.h"
+    },
+    {
+      "file": "src/decoder/include/utils/ThreadDefs.h",
+      "sha256": "a79d24c4b914966236fb95bd97ea360d9fff75dbc28e0c6b0753abab1d1956ea",
+      "origin": "work/system-surround-decoder/include/utils/ThreadDefs.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Compat.h",
+      "sha256": "8dbe55183ab35f361d5119467033d3e4a960bceafecb5ed310632dccf5fa85a1",
+      "origin": "work/system-surround-decoder/include/utils/Compat.h"
+    },
+    {
+      "file": "src/decoder/include/utils/threads.h",
+      "sha256": "5041ef681318648bbe35dee6c703823a693270c104f3592a9ce7bdcb956dfbeb",
+      "origin": "work/system-surround-decoder/include/utils/threads.h"
+    },
+    {
+      "file": "src/decoder/include/utils/RefBase.h",
+      "sha256": "3cadb1ca43d1980dc20d00c5586ad5cb83b106aff757265d4f94bcfb011c696e",
+      "origin": "work/system-surround-decoder/include/utils/RefBase.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Thread.h",
+      "sha256": "1f8b56e2f348748bfe1d422522a27c230584a9745f40f557f91a164d96c3f69d",
+      "origin": "work/system-surround-decoder/include/utils/Thread.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Unicode.h",
+      "sha256": "ddd4c6cee350ada5e9a5e22412219f29eb690612c0eee1567fe4909cc0c663cc",
+      "origin": "work/system-surround-decoder/include/utils/Unicode.h"
+    },
+    {
+      "file": "src/decoder/include/utils/VectorImpl.h",
+      "sha256": "2c0d7bff0eb9e8aee019ec5c2a939951200104068ece641485014f0c5f4c2bf2",
+      "origin": "work/system-surround-decoder/include/utils/VectorImpl.h"
+    },
+    {
+      "file": "src/decoder/include/utils/StrongPointer.h",
+      "sha256": "4f9b3c99f686d01be506766a43b2c870caa686b7d56a8cbfca6a7635c2c2846e",
+      "origin": "work/system-surround-decoder/include/utils/StrongPointer.h"
+    },
+    {
+      "file": "src/decoder/include/utils/Mutex.h",
+      "sha256": "f1e0cb4a0068c6b12caa0aa412897f4bad4e6a990c8caad93bca3af7b721dc65",
+      "origin": "work/system-surround-decoder/include/utils/Mutex.h"
+    },
+    {
+      "file": "src/decoder/include/utils/AndroidThreads.h",
+      "sha256": "684561d203a63d3825a7a881d8c29cc63108e85e63aaca8b53e4c412b0098f78",
+      "origin": "work/system-surround-decoder/include/utils/AndroidThreads.h"
+    },
+    {
+      "file": "src/decoder/include/utils/KeyedVector.h",
+      "sha256": "a1d7f02d7a3b0b74629521f7e796342e16a968f11bfdd620589e62d71b5d426b",
+      "origin": "work/system-surround-decoder/include/utils/KeyedVector.h"
+    },
+    {
+      "file": "src/decoder/include/utils/LightRefBase.h",
+      "sha256": "69e4814a1fb150b747bfff3a144535c6cc8584e037a2b847b7b719c1a75e94f1",
+      "origin": "work/system-surround-decoder/include/utils/LightRefBase.h"
+    },
+    {
+      "file": "src/decoder/include/utils/RWLock.h",
+      "sha256": "7819fc00e5c5ccd16507d87663f635d1700cddc1fdda591728da7582c2a1d988",
+      "origin": "work/system-surround-decoder/include/utils/RWLock.h"
+    },
+    {
+      "file": "src/decoder/include/system/graphics.h",
+      "sha256": "82d1b5e7e15ce1855023e1fe9e9daf702785e7da14dcd6c6a62d86a75ccc7c66",
+      "origin": "work/system-surround-decoder/include/system/graphics.h"
+    },
+    {
+      "file": "src/decoder/include/system/thread_defs.h",
+      "sha256": "61bfca4ee0e3c9bc6515a973d7f9a71a4f1712eb3d09f72053fbcdb52713c2e1",
+      "origin": "work/system-surround-decoder/include/system/thread_defs.h"
+    },
+    {
+      "file": "src/decoder/include/media/hardware/OMXPluginBase.h",
+      "sha256": "a62efc1dcd642ed122311d5be27c25f07d496aa22242bb97c73d62de4c50425a",
+      "origin": "work/system-surround-decoder/include/media/hardware/OMXPluginBase.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/foundation/ALooper.h",
+      "sha256": "a2d1261dcb8127addedab6cbd801a3ea602bdd52995e836cb656336dd638db89",
+      "origin": "work/system-surround-decoder/include/media/stagefright/foundation/ALooper.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/foundation/AHandler.h",
+      "sha256": "d6eecdc36619f1a05ec4adde1516d5bb5ed11bf58132705dbe7250ba7c180f21",
+      "origin": "work/system-surround-decoder/include/media/stagefright/foundation/AHandler.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/foundation/AString.h",
+      "sha256": "2a390e3b6b20509305fb86b0855fb294f16c0227fa55b6388600c9e04e4e565a",
+      "origin": "work/system-surround-decoder/include/media/stagefright/foundation/AString.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/foundation/AHandlerReflector.h",
+      "sha256": "b9355a35c43463b839d89ae2de4072a361bc35d44439517820d0767883622916",
+      "origin": "work/system-surround-decoder/include/media/stagefright/foundation/AHandlerReflector.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/foundation/ABase.h",
+      "sha256": "46c79ba4b6b26a776e8d79e104bdd628a0af395e1e9900dc509d69bb53b57a62",
+      "origin": "work/system-surround-decoder/include/media/stagefright/foundation/ABase.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/omx/SimpleSoftOMXComponent.h",
+      "sha256": "13207173fce214ce75945ad3be5eba062ac54ea11cb709784ffacc71741a77ce",
+      "origin": "work/system-surround-decoder/include/media/stagefright/omx/SimpleSoftOMXComponent.h"
+    },
+    {
+      "file": "src/decoder/include/media/stagefright/omx/SoftOMXComponent.h",
+      "sha256": "dd9175089a21df9d56e170890ad3f4eb4aa706668dba1e782d52b799c2c4fbe2",
+      "origin": "work/system-surround-decoder/include/media/stagefright/omx/SoftOMXComponent.h"
+    },
+    {
+      "file": "src/decoder/libstub/libutils.so",
+      "sha256": "3cd9ecab231122c62db9219d74f7f37b641dde2cc141ff408ed8fbfb6fe4b5b7",
+      "origin": "work/system-surround-decoder/libstub/libutils.so"
+    },
+    {
+      "file": "src/decoder/libstub/libc++.so",
+      "sha256": "50cfa79deabd520fcc285ae2b34548cd5a99226e151c9a955c8dd8ad8a6a51c9",
+      "origin": "work/system-surround-decoder/libstub/libc++.so"
+    },
+    {
+      "file": "src/decoder/libstub/libstagefright_foundation.so",
+      "sha256": "3a3639499c0cb4e2eb8fae056cc2122c6d5fd269c72dc70831866e1520aeeb82",
+      "origin": "work/system-surround-decoder/libstub/libstagefright_foundation.so"
+    },
+    {
+      "file": "src/decoder/libstub/libstagefright_softomx.so",
+      "sha256": "548f88ff6679f3d8ebcb0fe78af410b90d180595504f56670b97ab1cadb3bec8",
+      "origin": "work/system-surround-decoder/libstub/libstagefright_softomx.so"
+    },
+    {
+      "file": "src/decoder/libstub/liblog.so",
+      "sha256": "67520e7f86027c380624f18aa50adf1ebd3f65288b64e59b00a19438229ffdc7",
+      "origin": "work/system-surround-decoder/libstub/liblog.so"
+    },
+    {
+      "file": "src/spdif/frozen-ffmpeg/config.h",
+      "sha256": "1f48b605d153cb15a6d86dc6050a6c9ecf02b5c9e6f8227ea3e80a584af5abfa",
+      "origin": "cebox/offline-build/sei500-hd-audio/build-android/config.h"
+    },
+    {
+      "file": "src/spdif/frozen-ffmpeg/libavformat.a",
+      "sha256": "b7a7d99bfe07785176c580cfeb0c7a339f00eb903264daeda0757420d52622bf",
+      "origin": "cebox/offline-build/sei500-hd-audio/build-android/libavformat/libavformat.a"
+    },
+    {
+      "file": "src/spdif/frozen-ffmpeg/libavcodec.a",
+      "sha256": "0065613d322d91c4d063a09e24a2e37d3b91e37524ef33d372d940196bb95a51",
+      "origin": "cebox/offline-build/sei500-hd-audio/build-android/libavcodec/libavcodec.a"
+    },
+    {
+      "file": "src/spdif/frozen-ffmpeg/libavutil.a",
+      "sha256": "3c4427d477beff0ed7a2af8ff28242d5a16ff8d4da7a0c33f19bb15c6533d6ed",
+      "origin": "cebox/offline-build/sei500-hd-audio/build-android/libavutil/libavutil.a"
+    },
+    {
+      "file": "src/decoder/frozen-ffmpeg/config.h",
+      "sha256": "0cdd76c51826312fd16b0cc14f51b95c092764c18a60876ee3edb5356d9e3006",
+      "origin": "work/system-surround-decoder/ffmpeg-build/config.h"
+    },
+    {
+      "file": "src/decoder/frozen-ffmpeg/libavcodec.a",
+      "sha256": "aaa0cca3935dad170195a44ad0d6f1cb8d85b347e9468dd8604ae3ff4b184dc6",
+      "origin": "work/system-surround-decoder/ffmpeg-build/libavcodec/libavcodec.a"
+    },
+    {
+      "file": "src/decoder/frozen-ffmpeg/libavutil.a",
+      "sha256": "b69d5673504ead92edb3322c0264d4a51f6bf2c2e6a8b5d383949ffb9fbfc2b9",
+      "origin": "work/system-surround-decoder/ffmpeg-build/libavutil/libavutil.a"
+    },
+    {
+      "file": "src/decoder/frozen-ffmpeg/libswresample.a",
+      "sha256": "860c15abb2ef920121785e3e3be75112327037cde1d065b73f2b919c0430fad5",
+      "origin": "work/system-surround-decoder/ffmpeg-build/libswresample/libswresample.a"
+    },
+    {
+      "file": "src/hal/direct_owner_guard.S",
+      "sha256": "d63d2fc7fe538e6b803e4b6b666b0b0fdd928307dadc310efe4c7c0743c93757",
+      "origin": "work/round3-analysis/direct_owner_guard.S"
+    },
+    {
+      "file": "src/hal/truehd_post_first_burst.S",
+      "sha256": "e12ab060084c130a4f31031fa4bf317a08b2f64bb165f6bcb58f81fa0349cc4d",
+      "origin": "work/round3-analysis/truehd_post_first_burst.S"
+    },
+    {
+      "file": "src/hal/ac3_running_n1_latch.S",
+      "sha256": "804e31184a20eb444fefd10da21474a16a2c9d0abba3a7b59c0238a76a5c6d2d",
+      "origin": "work/round3-analysis/ac3_running_n1_latch.S"
+    },
+    {
+      "file": "src/hal/dtses_core_scope.S",
+      "sha256": "de2d6d99fb2a86f74fce82e0f4dbb24c77af2ba32c0f36a77cbb9b5e236b7ace",
+      "origin": "work/round3-analysis/dtses_core_scope.S"
+    },
+    {
+      "file": "src/hal/exoplayer_native_dtshd_rate.S",
+      "sha256": "b953b4a7285b4fe82f96dd214f335c08cb446a813907a8ef3d3adf1e290495f8",
+      "origin": "work/round3-analysis/exoplayer_native_dtshd_rate.S"
+    },
+    {
+      "file": "src/hal/hal_truehd_buffer_cave.S",
+      "sha256": "8dffb0ebb06d17b6d9c4c2eba08c4ca4dbd7af8029e1abbc4117eaeddc1dce8c",
+      "origin": "work/round3-analysis/hal_truehd_buffer_cave.S"
+    },
+    {
+      "file": "src/hal/hal_truehd_latency16_cave.S",
+      "sha256": "9cac3240802b90cd69489500776896c50993e0113e14aca8cdeee7dff13c4a68",
+      "origin": "work/round3-analysis/hal_truehd_latency16_cave.S"
+    },
+    {
+      "file": "src/hal/hal_truehd_rate_cave.S",
+      "sha256": "6a658d8e618cd49074a65bc0d886bc1f7cbcb295b4a13abceca78f9c34a5fbc9",
+      "origin": "work/round3-analysis/hal_truehd_rate_cave.S"
+    },
+    {
+      "file": "src/hal/presentation-return-fix.S",
+      "sha256": "6057e348e1c87932e19189ad0ce3942da9a25a0c501d5d20e177fa1a16c09053",
+      "origin": "work/round3-analysis/presentation-return-fix.S"
+    },
+    {
+      "file": "src/hal/presentation-patch-v2.S",
+      "sha256": "0bc32ba992db0c6b97999d87c3f904cd1fedadfaf434e82ca8e38fd247fa04c8",
+      "origin": "work/round3-analysis/presentation-patch-v2.S"
+    },
+    {
+      "file": "src/hal/fullframe_core.S",
+      "sha256": "da32eb582f8354122f64d91ed933dea9c94a53f9eca176e3540095090c06c4e4",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/fullframe_core.S"
+    },
+    {
+      "file": "src/hal/fullframe_format.S",
+      "sha256": "a46fa41bef5c819d4f015427fb97a841f396e30c61cc2919409b87aef67af059",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/fullframe_format.S"
+    },
+    {
+      "file": "src/hal/history/build_direct_owner_guard.py",
+      "sha256": "34f0866fe39aa8555a2fc1a8bd2ed9cc05e06d532f22af7d061bb8d5413703af",
+      "origin": "work/round3-analysis/build_direct_owner_guard.py"
+    },
+    {
+      "file": "src/hal/history/build_truehd_post_first_burst.py",
+      "sha256": "9f5f68c4ba0051aa309eb20e94af723c5c2ccc7cf1cfd47db8c867e73738ea25",
+      "origin": "work/round3-analysis/build_truehd_post_first_burst.py"
+    },
+    {
+      "file": "src/hal/history/build_ac3_running_n1_latch.py",
+      "sha256": "d2a002b099618beccd702ac006712352b90d434ab7c98b284222fe337075ed84",
+      "origin": "work/round3-analysis/build_ac3_running_n1_latch.py"
+    },
+    {
+      "file": "src/hal/history/build_dtses_core_scope.py",
+      "sha256": "50bbb4252f47f56e49cd8ee8c6f3be4513efc6d3b55f3071971991721066a7dc",
+      "origin": "work/round3-analysis/build_dtses_core_scope.py"
+    },
+    {
+      "file": "src/hal/history/build_exoplayer_native_dtshd.py",
+      "sha256": "05c2fe002caf87a452b6335fd458383eca697489b7a0a12f01119e8f0f84d0b5",
+      "origin": "work/round3-analysis/build_exoplayer_native_dtshd.py"
+    },
+    {
+      "file": "src/hal/history/build_hal_truehd_rate.py",
+      "sha256": "5f08a3bc15a6533078335a284ad4c22a27c7a3ddbb47a7a7f7bca7db0167b58b",
+      "origin": "work/round3-analysis/build_hal_truehd_rate.py"
+    },
+    {
+      "file": "src/hal/history/build_hal_truehd_buffer.py",
+      "sha256": "220c941de0c7c5868197ae753583ebd5a4b1494dbc5199a25b30131bd1cf3fac",
+      "origin": "work/round3-analysis/build_hal_truehd_buffer.py"
+    },
+    {
+      "file": "src/hal/history/build_hal_truehd_latency16.py",
+      "sha256": "572f2fa6a5f4a9ec514ebf878135d25e219a423c21983dbdddeb107366fd38a9",
+      "origin": "work/round3-analysis/build_hal_truehd_latency16.py"
+    },
+    {
+      "file": "src/hal/history/fix_presentation_return.py",
+      "sha256": "9d181740e3ecf731135c71f4000cc24f1c4fdb5573283adfa0edcdf3cee55fb3",
+      "origin": "work/round3-analysis/fix_presentation_return.py"
+    },
+    {
+      "file": "src/hal/history/build_fullframe_hal.py",
+      "sha256": "2c8532c6c3d05c9c971adda3e69b7abb22f96694de421ef121c63bd144dcca17",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/build_hal.py"
+    },
+    {
+      "file": "third_party/licenses/ffmpeg/LICENSE.md",
+      "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af",
+      "origin": "cebox/offline-build/sei500-hd-audio/FFmpeg-n8.1.3/LICENSE.md"
+    },
+    {
+      "file": "third_party/licenses/ffmpeg/COPYING.LGPLv2.1",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30",
+      "origin": "cebox/offline-build/sei500-hd-audio/FFmpeg-n8.1.3/COPYING.LGPLv2.1"
+    },
+    {
+      "file": "third_party/licenses/ffmpeg/COPYING.LGPLv3",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "origin": "cebox/offline-build/sei500-hd-audio/FFmpeg-n8.1.3/COPYING.LGPLv3"
+    },
+    {
+      "file": "third_party/licenses/ffmpeg/COPYING.GPLv2",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "origin": "cebox/offline-build/sei500-hd-audio/FFmpeg-n8.1.3/COPYING.GPLv2"
+    },
+    {
+      "file": "third_party/licenses/ffmpeg/COPYING.GPLv3",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "origin": "cebox/offline-build/sei500-hd-audio/FFmpeg-n8.1.3/COPYING.GPLv3"
+    },
+    {
+      "file": "third_party/licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "origin": "/usr/share/common-licenses/Apache-2.0"
+    },
+    {
+      "file": "evidence/dts-fullframe-user-acceptance.json",
+      "sha256": "e04af97ab5d2bdd7cdfbee0daff249640efd206b3cc7d9193f86316b7f603319",
+      "origin": "work/round3-evidence/dts51-side-20261001/acceptance.json"
+    },
+    {
+      "file": "evidence/dts-fullframe-comparison.txt",
+      "sha256": "7f95483500c7a5d3e78a9b96f447c8550208907997530c53bc585fa236799ffb",
+      "origin": "work/round3-evidence/dts51-side-20261001/standalone-comparison.txt"
+    },
+    {
+      "file": "evidence/dts-fullframe-abi-verification.json",
+      "sha256": "cd81dc495cab17f834680cfa70cbbe93ea40c91d5207b70b7c4d29232a36ee24",
+      "origin": "work/round3-analysis/dts-fullframe-20261001/abi-verification.json"
+    },
+    {
+      "file": "evidence/pcm-format-regression-summary.json",
+      "sha256": "d5ae9a702eb57d7ce13e3807841ad7490fd698dc02f4ba94f8c4e5af2428d01b",
+      "origin": "work/system-surround-decoder/live-results/pcm-format-regression-summary.json"
+    }
+  ]
+}

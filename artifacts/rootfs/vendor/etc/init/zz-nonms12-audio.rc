@@ -1,0 +1,12 @@
+# Persist the exact non-MS12 setup tested on this Android port.
+# vendor and odm are mounted before post-fs-data; the HAL starts later.
+on post-fs-data
+    mount none /vendor/etc/audio-noms12-empty /odm/lib bind
+    wait /sys/class/amhdmitx/amhdmitx0/debug 5
+    chown root audio /sys/class/amhdmitx/amhdmitx0/debug
+    chmod 0220 /sys/class/amhdmitx/amhdmitx0/debug
+
+# Reapply the DAC permissions after the remaining boot actions.
+on property:sys.boot_completed=1
+    chown root audio /sys/class/amhdmitx/amhdmitx0/debug
+    chmod 0220 /sys/class/amhdmitx/amhdmitx0/debug

@@ -1,0 +1,62 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Skyworth
+ro.product.product.device=LAS
+ro.product.product.manufacturer=SkyworthDigital
+ro.product.product.model=LEAP-S1
+ro.product.product.name=HP4028-Skyworth
+ro.product.build.date=Thu Jul 18 03:54:03 UTC 2024
+ro.product.build.date.utc=1721274843
+ro.product.build.fingerprint=Skyworth/HP4028-Skyworth/LAS:12/STTC.220815.001/C4.1.1_20240718:user/release-keys
+ro.product.build.id=STTC.220815.001
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=C4.1.1_20240718
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=31
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=31
+ro.build.characteristics=tv,nosdcard
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.notification_sound=pixiedust.ogg
+debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=1
+debug.sf.vsync_reactor_ignore_present_fences=1
+ro.sf.disable_triple_buffer=0
+camera.disable_zsl_mode=1
+rw.camera.usb.faceback=true
+ro.boot.fake_battery=42
+ro.af.client_heap_size_kbyte=2048
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+vendor.useaml.hotplug=1
+ro.hdmi.cec.source.playback_device_action_on_routing_control=wake_up_and_send_active_source
+ro.hdmi.cec.source.send_standby_on_sleep=broadcast
+ro.llk.ignorelist.parent=com.antutu.ABenchMark
+ro.lmk.use_new_strategy=true
+ro.boot.netflix.modelgroup=RefPlusSKY4K905X2BoxOTT
+ro.boot.oem.key1=ATV00104319
+ro.com.google.clientidbase=android-skyworthdigital-tv
+ro.config.media_vol_default=12
+ro.config.media_vol_steps=15
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+####################################
+# PRODUCT_OEM_PROPERTIES
+####################################
+import /oem/oem.prop ro.product.name
+import /oem/oem.prop ro.product.brand
+import /oem/oem.prop ro.product.device
+import /oem/oem.prop ro.product.manufacturer
+import /oem/oem.prop ro.product.model
+import /oem/oem.prop ro.mecool.device.model
+# end of file

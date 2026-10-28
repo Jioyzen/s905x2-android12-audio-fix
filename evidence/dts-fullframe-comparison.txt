@@ -1,0 +1,7 @@
+d4e88a4a93baf4bd933010b80966f18d604a4428e78e87cc4c364041a480d10e  /data/local/tmp/dts-fullframe-20261001/old/ac3.spdif
+a2e835dfe73e9e4e10f5e3ab2dfcf48a8d85f4ddb964c2f68ffdc8040f4ef21a  /data/local/tmp/dts-fullframe-20261001/old/dtses.spdif
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/local/tmp/dts-fullframe-20261001/old/fullrate.spdif
+d4e88a4a93baf4bd933010b80966f18d604a4428e78e87cc4c364041a480d10e  /data/local/tmp/dts-fullframe-20261001/new/ac3.spdif
+a2e835dfe73e9e4e10f5e3ab2dfcf48a8d85f4ddb964c2f68ffdc8040f4ef21a  /data/local/tmp/dts-fullframe-20261001/new/dtses.spdif
+e23cb91d937a90d4576fa04e92581157464c48529d2cb91d3c878ce569e5668b  /data/local/tmp/dts-fullframe-20261001/new/fullrate-fragmented.spdif
+e23cb91d937a90d4576fa04e92581157464c48529d2cb91d3c878ce569e5668b  /data/local/tmp/dts-fullframe-20261001/new/fullrate.spdif

@@ -1,0 +1,25 @@
+{
+  "status": "temporary-loaded-dts51-accepted-hd-regression-pending",
+  "accepted_by_user": "一切正常（DTS 5.1(side) 标识、有声、长seek、画速、同步）",
+  "persisted": false,
+  "app_pid_unchanged": 5129,
+  "hardware_rate_hz": 48000,
+  "mixer_type": 3,
+  "live_output_decoded": {
+    "decoded_float_samples": 958464,
+    "rms": 0.051271183302603475,
+    "max_abs": 0.47653090953826904
+  },
+  "binds": [
+    {
+      "path": "/vendor/lib/hw/audio.primary.amlogic.so",
+      "source": "/data/local/tmp/dts-fullframe-20261001/new/audio.primary.amlogic.so",
+      "sha256": "6b582b0c2ad3e5ce9613abd559fda73688a5167da20fa880d55881914fce3215"
+    },
+    {
+      "path": "/vendor/lib/libdroidaudiospdif.so",
+      "source": "/data/local/tmp/dts-fullframe-20261001/new/libdroidaudiospdif.so",
+      "sha256": "1e1c8ee210eb13cea4a304944fc16992a3d82c44f9a41324316db78a49ae4130"
+    }
+  ]
+}

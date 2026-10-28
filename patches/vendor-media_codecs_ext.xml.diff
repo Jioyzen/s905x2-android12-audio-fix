@@ -1,0 +1,24 @@
+--- original/vendor/etc/media_codecs_ext.xml
++++ final/vendor/etc/media_codecs_ext.xml
+@@ -160,17 +160,17 @@
+         <MediaCodec name="OMX.amlogic.audio.decoder.ffmpeg" type="audio/ffmpeg">
+             <Limit name="channel-count" max="30" />
+         </MediaCodec>
+-        <MediaCodec name="OMX.amlogic.audio.decoder.dts" type="audio/vnd.dts">
++        <MediaCodec name="OMX.google.ffsurround.dts.decoder" type="audio/vnd.dts">
+             <Limit name="channel-count" max="8" />
+             <Limit name="sample-rate" ranges="44100,48000,88200,96000" />
+             <Limit name="bitrate" range="32000-1509000" />
+         </MediaCodec>
+-        <MediaCodec name="OMX.amlogic.audio.decoder.dtshd" type="audio/vnd.dts.hd">
++        <MediaCodec name="OMX.google.ffsurround.dtshd.decoder" type="audio/vnd.dts.hd">
+             <Limit name="channel-count" max="8" />
+-            <Limit name="sample-rate" ranges="44100,48000,88200,96000,176000,192000" />
++            <Limit name="sample-rate" ranges="44100,48000,88200,96000,176400,192000" />
+             <Limit name="bitrate" range="32000-25000000" />
+         </MediaCodec>
+-        <MediaCodec name="OMX.amlogic.audio.decoder.dtse" type="audio/vnd.dts.hd;profile=lbr">
++        <MediaCodec name="OMX.google.ffsurround.dtse.decoder" type="audio/vnd.dts.hd;profile=lbr">
+             <Limit name="channel-count" max="6" />
+             <Limit name="sample-rate" ranges="22050,24000,44100,48000" />
+             <Limit name="bitrate" range="32000-512000" />

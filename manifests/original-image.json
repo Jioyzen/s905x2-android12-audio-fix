@@ -1,0 +1,48 @@
+{
+  "filename": "sei500奈飞安卓12.img",
+  "size": 1832295392,
+  "sha256": "2916c7cf174ca26de65bae2b20edd7fa9a59d5f73ddfad2b4eb4b7e0ae3320c1",
+  "super_item": {
+    "offset": 139964772,
+    "size": 1690233372,
+    "sha256": "57c011732466c345ce665fc29016004696f0efb900ccc3ab6007c8ca9b6b9c56"
+  },
+  "partitions": [
+    {
+      "name": "system",
+      "attributes": 0,
+      "group_index": 1,
+      "size": 809754624,
+      "path": "logical-partitions/system.img",
+      "sha256": "36c566855abb895f34b75f8617d4e2a75e713aabcdf6a5cfc0a3bb9d02b9e911",
+      "extent_count": 1
+    },
+    {
+      "name": "vendor",
+      "attributes": 0,
+      "group_index": 1,
+      "size": 168894464,
+      "path": "logical-partitions/vendor.img",
+      "sha256": "83531b1c6c72190fe6cef8c0f8418c19dff8310547879181560cfdc1bfb9113b",
+      "extent_count": 1
+    },
+    {
+      "name": "product",
+      "attributes": 0,
+      "group_index": 1,
+      "size": 749314048,
+      "path": "logical-partitions/product.img",
+      "sha256": "5699f191bb45c61525b19ae779d8950617df0309d64e50a660b2be7c12059441",
+      "extent_count": 1
+    },
+    {
+      "name": "odm",
+      "attributes": 0,
+      "group_index": 1,
+      "size": 7565312,
+      "path": "logical-partitions/odm.img",
+      "sha256": "c85ed96efe5fa529b0b125039a5cfd7d6587581d09ed102b92a8cfdb3e887591",
+      "extent_count": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ffmpeg_spdif": {
+    "version": "n8.1.3",
+    "commit": "1041abdc962f4cc4f394aa8de9dc5236c0c3b9e7",
+    "archive": "third_party/FFmpeg-n8.1.3-source.tar.xz",
+    "archive_sha256": "64cc880210dcf735592d55af6d293ef4bbf8921b4ef5d70cff6d3d817fd597bd"
+  },
+  "ffmpeg_decoder": {
+    "version": "n6.1.1",
+    "commit": "e38092ef9395d7049f871ef4d5411eb410e283e0",
+    "archive": "third_party/FFmpeg-n6.1.1-source.tar.xz",
+    "archive_sha256": "a37816054112c5006c866b7e83be087d7f11a2eed2aa6655af2e824bfe7d481c"
+  },
+  "ndk": "28.2.13676358",
+  "target": "armv7a-linux-androideabi26",
+  "runtime_android_api": 31
+}

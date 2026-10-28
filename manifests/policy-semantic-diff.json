@@ -1,0 +1,347 @@
+[
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "direct output",
+    "original": {
+      "attributes": {
+        "name": "direct output",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT"
+      },
+      "profiles": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    "final": null
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "direct raw",
+    "original": null,
+    "final": {
+      "attributes": {
+        "name": "direct raw",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT",
+        "maxOpenCount": "2"
+      },
+      "profiles": [
+        {
+          "name": "ac3",
+          "format": "AUDIO_FORMAT_AC3",
+          "samplingRates": "32000,44100,48000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "eac3",
+          "format": "AUDIO_FORMAT_E_AC3",
+          "samplingRates": "32000,44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dts",
+          "format": "AUDIO_FORMAT_DTS",
+          "samplingRates": "32000,44100,48000,88200,96000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dtshd raw",
+          "format": "AUDIO_FORMAT_DTS_HD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        },
+        {
+          "name": "truehd raw",
+          "format": "AUDIO_FORMAT_DOLBY_TRUEHD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        },
+        {
+          "name": "iec raw",
+          "format": "AUDIO_FORMAT_IEC61937",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        }
+      ]
+    }
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "mmap_no_irq_out",
+    "original": {
+      "attributes": {
+        "name": "mmap_no_irq_out",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_MMAP_NOIRQ|AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD"
+      },
+      "profiles": [
+        {
+          "name": "",
+          "format": "AUDIO_FORMAT_PCM_16_BIT",
+          "samplingRates": "48000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO"
+        }
+      ]
+    },
+    "final": {
+      "attributes": {
+        "name": "mmap_no_irq_out",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_MMAP_NOIRQ"
+      },
+      "profiles": [
+        {
+          "name": "",
+          "format": "AUDIO_FORMAT_PCM_16_BIT",
+          "samplingRates": "48000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO"
+        }
+      ]
+    }
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "multi pcm",
+    "original": null,
+    "final": {
+      "attributes": {
+        "name": "multi pcm",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_HW_AV_SYNC"
+      },
+      "profiles": [
+        {
+          "name": "",
+          "format": "AUDIO_FORMAT_PCM_16_BIT,AUDIO_FORMAT_PCM_32_BIT,AUDIO_FORMAT_PCM_FLOAT",
+          "samplingRates": "32000,44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        }
+      ]
+    }
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "tunnel a2dp",
+    "original": {
+      "attributes": {
+        "name": "tunnel a2dp",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_HW_AV_SYNC"
+      },
+      "profiles": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    "final": null
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "tunnel direct output",
+    "original": {
+      "attributes": {
+        "name": "tunnel direct output",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_HW_AV_SYNC"
+      },
+      "profiles": [
+        {
+          "name": ""
+        }
+      ]
+    },
+    "final": null
+  },
+  {
+    "module": "primary",
+    "group": "mixPorts",
+    "name": "tunnel raw",
+    "original": null,
+    "final": {
+      "attributes": {
+        "name": "tunnel raw",
+        "role": "source",
+        "flags": "AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_HW_AV_SYNC"
+      },
+      "profiles": [
+        {
+          "name": "ac3",
+          "format": "AUDIO_FORMAT_AC3",
+          "samplingRates": "32000,44100,48000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "eac3",
+          "format": "AUDIO_FORMAT_E_AC3",
+          "samplingRates": "32000,44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dts",
+          "format": "AUDIO_FORMAT_DTS",
+          "samplingRates": "32000,44100,48000,88200,96000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dtshd raw",
+          "format": "AUDIO_FORMAT_DTS_HD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        },
+        {
+          "name": "truehd raw",
+          "format": "AUDIO_FORMAT_DOLBY_TRUEHD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        },
+        {
+          "name": "iec raw",
+          "format": "AUDIO_FORMAT_IEC61937",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        }
+      ]
+    }
+  },
+  {
+    "module": "primary",
+    "group": "devicePorts",
+    "name": "HDMI Out",
+    "original": {
+      "attributes": {
+        "tagName": "HDMI Out",
+        "type": "AUDIO_DEVICE_OUT_AUX_DIGITAL",
+        "role": "sink",
+        "encodedFormats": "AUDIO_FORMAT_PCM_16_BIT"
+      },
+      "profiles": []
+    },
+    "final": {
+      "attributes": {
+        "tagName": "HDMI Out",
+        "type": "AUDIO_DEVICE_OUT_AUX_DIGITAL",
+        "role": "sink",
+        "encodedFormats": "AUDIO_FORMAT_AC3,AUDIO_FORMAT_E_AC3,AUDIO_FORMAT_DTS,AUDIO_FORMAT_DOLBY_TRUEHD,AUDIO_FORMAT_DTS_HD"
+      },
+      "profiles": [
+        {
+          "name": "pcm",
+          "format": "AUDIO_FORMAT_PCM_16_BIT,AUDIO_FORMAT_PCM_32_BIT,AUDIO_FORMAT_PCM_FLOAT,AUDIO_FORMAT_IEC61937",
+          "samplingRates": "32000,44100,48000,64000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dts es",
+          "format": "AUDIO_FORMAT_DTS",
+          "samplingRates": "44100,48000,88200,96000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"
+        },
+        {
+          "name": "dtshd",
+          "format": "AUDIO_FORMAT_DTS_HD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        },
+        {
+          "name": "truehd",
+          "format": "AUDIO_FORMAT_DOLBY_TRUEHD",
+          "samplingRates": "44100,48000,88200,96000,176400,192000",
+          "channelMasks": "AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_7POINT1,AUDIO_CHANNEL_OUT_7POINT1_SURROUND"
+        }
+      ]
+    }
+  },
+  {
+    "module": "primary",
+    "group": "routes",
+    "name": "BT A2DP Headphones",
+    "original": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Headphones",
+        "sources": "primary output,tunnel a2dp,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    },
+    "final": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Headphones",
+        "sources": "primary output,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    }
+  },
+  {
+    "module": "primary",
+    "group": "routes",
+    "name": "BT A2DP Out",
+    "original": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Out",
+        "sources": "primary output,tunnel a2dp,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    },
+    "final": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Out",
+        "sources": "primary output,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    }
+  },
+  {
+    "module": "primary",
+    "group": "routes",
+    "name": "BT A2DP Speaker",
+    "original": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Speaker",
+        "sources": "primary output,tunnel a2dp,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    },
+    "final": {
+      "attributes": {
+        "type": "mix",
+        "sink": "BT A2DP Speaker",
+        "sources": "primary output,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    }
+  },
+  {
+    "module": "primary",
+    "group": "routes",
+    "name": "HDMI Out",
+    "original": {
+      "attributes": {
+        "type": "mix",
+        "sink": "HDMI Out",
+        "sources": "primary output,tunnel pcm,direct output,Tuner,mmap_no_irq_out,tunnel direct output"
+      },
+      "profiles": []
+    },
+    "final": {
+      "attributes": {
+        "type": "mix",
+        "sink": "HDMI Out",
+        "sources": "primary output,tunnel pcm,tunnel raw,direct raw,multi pcm,Tuner,mmap_no_irq_out"
+      },
+      "profiles": []
+    }
+  }
+]

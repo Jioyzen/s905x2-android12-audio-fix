@@ -1,0 +1,11 @@
+--- original/product/etc/build.prop
++++ final/product/etc/build.prop
+@@ -34,7 +34,7 @@
+ camera.disable_zsl_mode=1
+ rw.camera.usb.faceback=true
+ ro.boot.fake_battery=42
+-ro.af.client_heap_size_kbyte=2048
++ro.af.client_heap_size_kbyte=8192
+ ro.lmk.kill_heaviest_task=true
+ ro.lmk.kill_timeout_ms=100
+ ro.lmk.use_minfree_levels=true
